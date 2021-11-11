@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA81B1EC273D8E9B00D6ECE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA81B1EB273D8E9B00D6ECE7 /* LaunchScreen.storyboard */; };
 		FA873B85272F0D2800A2D621 /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA873B84272F0D2800A2D621 /* ToDoListApp.swift */; };
 		FA873B89272F0D2B00A2D621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA873B88272F0D2B00A2D621 /* Assets.xcassets */; };
 		FA873B8C272F0D2B00A2D621 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA873B8B272F0D2B00A2D621 /* Preview Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA81B1EB273D8E9B00D6ECE7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA873B81272F0D2800A2D621 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA873B84272F0D2800A2D621 /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
 		FA873B88272F0D2B00A2D621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				FA873B95272F103B00A2D621 /* ListRowView.swift */,
 				FA873B98272F13C800A2D621 /* AddView.swift */,
 				FACBDC732739841C00B907E6 /* NoItemsView.swift */,
+				FA81B1EB273D8E9B00D6ECE7 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA81B1EC273D8E9B00D6ECE7 /* LaunchScreen.storyboard in Resources */,
 				FA873B8C272F0D2B00A2D621 /* Preview Assets.xcassets in Resources */,
 				FA873B89272F0D2B00A2D621 /* Assets.xcassets in Resources */,
 			);

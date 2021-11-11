@@ -40,6 +40,7 @@ struct NoItemsView: View {
                     .scaleEffect(animate ? 1.1 : 1.0)
                     .offset(y: animate ? -7 : 0)
             }
+            .frame(maxWidth: 400)
             .multilineTextAlignment(.center)
             .padding(40)
             .onAppear(perform: addAnimation)
@@ -64,9 +65,11 @@ struct NoItemsView: View {
 
 struct NoItemsView_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView {
-            NoItemsView()
-                .navigationTitle("Title")
+        Group {
+            NavigationView {
+                NoItemsView()
+                    .navigationTitle("Title")
+            }
         }
     }
 }
